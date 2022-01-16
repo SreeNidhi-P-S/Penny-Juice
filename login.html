@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <style>
+    body,
+    html {
+      height: 100%;
+    }
+
+    .container {
+      position: relative;
+      background-image: url("images/signin.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      filter: blur(7px);
+      /* Adding blur background image */
+    }
+
+    .text {
+      text-align: center;
+      position: absolute;
+      left: 30%;
+      top: 0%;
+      width: 50%;
+      font-size: 30px;
+    }
+  </style>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container"></div>
+  <div class="text">
+    <div class="wrapper">
+      <div class="inner">
+        <div class="image-holder">
+          <img src="images/registration-form-4.jpg" alt="">
+        </div>
+        <form action="">
+          <h3>Login</h3>
+          <div class="form-holder">
+            <input type="email" placeholder="e-mail" class="form-control">
+          </div>
+          <div class="form-holder">
+            <input type="password" placeholder="Password" class="form-control" style="font-size: 15px;">
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" checked><p>Keep me logged in.</P>
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          <div class="form-login">
+            <button>Login</button>
+            <p>Don't Have An Account? <a href="signin.html">Sign Up</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
